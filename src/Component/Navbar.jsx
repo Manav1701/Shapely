@@ -16,6 +16,7 @@ const Navbar = () => {
           <Link to="/Portfolio" className="link"><a >Portfolio</a></Link>
           <Link to="/About" className="link"><a >About</a></Link>
           <Link to="/Contact" className="link"><a >Levels</a></Link>
+          <Link to="/Shop" className="link"><a >Shop</a></Link>
         </div>
       </nav>
       <Routes>
@@ -24,6 +25,7 @@ const Navbar = () => {
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Shop" element={<Shop />} />
       </Routes>
     </>
   );
