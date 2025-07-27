@@ -1,5 +1,10 @@
 import { Routes, Route, Link } from "react-router";
 import Home from './Home'
+import About from './About'
+import Blog from './Blog'
+import Portfolio from './Portfolio'
+import Contact from './Contact'
+import Shop from './Shop'
 const Navbar = () => {
   return (
     <>
@@ -25,18 +30,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-const Blog = () => {
-  return "This is Blog";
-};
-
-const Portfolio = () => {
-  return "This is Portfolio";
-};
-
-const About = () => {
-  return "This is About";
-};
-const Contact = () => {
-  return "This is Contact";
-};
