@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    color: #8c979e;
+    background-color: #fff;
+    span{
+        margin-left: 50px;
+        font-size: 30px;
+    }
+}
+
+.Nav .menu{
+    margin-right: 50px;
+    padding: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: rgb(76,76,76);
+    max-width: 100%;
+    transition: 0.3s;
+    white-space: normal;
+    
+}
+
+.link {
+   text-decoration: none;
+   padding: auto;
+   margin: 20px;
+   color: #4c4c4c;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container .items{
+    width: 800px;
+    height: 300px;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.container .items .normtext{
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 70px; 
+    text-align: center;
+}
+
+.container .items .paragraph{
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.container .items .buttons {
+    height: 50px;
+    text-align: center;
+}
+
+.container .items .buttons button{
+    height: 100%;
+    padding: 5px;
+    text-transform: uppercase;
+    width: auto;
+    margin: 0 20px;
+    color: #fff;
+    background-color: #745cf9;
+    border: none;
+    width: 200px;
+}
+
+.container .items .buttons .btn2{
+    border: 3px solid #fff;
+    background-color: transparent;
+}
+
+
