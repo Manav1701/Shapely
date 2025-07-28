@@ -11,12 +11,12 @@ const Navbar = () => {
       <nav className="Nav">
         <span>Shapely</span>
         <div className="menu">
-          <Link to="/" className="link"><a>Home</a></Link>
-          <Link to="/Blog" className="link"><a >Blog</a></Link>
-          <Link to="/Portfolio" className="link"><a >Portfolio</a></Link>
-          <Link to="/About" className="link"><a >About</a></Link>
-          <Link to="/Contact" className="link"><a >Levels</a></Link>
-          <Link to="/Shop" className="link"><a >Shop</a></Link>
+          <Link to="/" className="link">Home</Link>
+          <Link to="/Blog" className="link">Blog</Link>
+          <Link to="/Portfolio" className="link">Portfolio</Link>
+          <Link to="/About" className="link">About</Link>
+          <Link to="/Contact" className="link">Levels</Link>
+          <Link to="/Shop" className="link">Shop</Link>
         </div>
       </nav>
       <Routes>

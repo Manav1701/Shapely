@@ -56,22 +56,23 @@ body{
     background-repeat: no-repeat;
 }
 
-.container .items{
+.items{
     width: 800px;
     height: 300px;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
 }
 
-.container .items .normtext{
+.normtext{
     margin-bottom: 10px;
-    color: #fff;
+    color: #242f22;
     font-weight: 400;
     font-size: 70px; 
     text-align: center;
+    text-shadow: 2px 2px 2px 1px #000;
 }
 
-.container .items .paragraph{
+.paragraph{
     margin-bottom: 10px;
     color: #fff;
     font-weight: 400;
@@ -103,32 +104,29 @@ body{
     padding: 5px;
     text-transform: uppercase;
     width: auto;
-    margin: 0 20px;
+    margin: 10px 0px 0px 10px;
     color: #fff;
     width: 200px;
 }
 
-.seofriendly{
+.cont{
     height: 450px;
     width: 100%;
-    color: #8c979e;
     display: flex;
-
 }
 
-.seofriendly .imgsec{
+.imgsec{
     height: 100%;
     width: 65%;
 }
 
-.seofriendly .imgsec img{
+.imgsec img{
     width: 700px;
     height: 410px;
-    margin: 30px 0 0 80px;
+    margin: auto 0 0 80px;
     padding: auto;
 }
-
-.seofriendly .textsec{
+.textsec{
     height: 100%;
     width: 35%;
 }
@@ -136,7 +134,7 @@ body{
 .heading{
     color: #000;
     font-weight: 100;
-    margin: 40px 0px 30px 0px;
+    margin: 45px 0px 30px 0px;
     letter-spacing: 0.3px;
     text-transform: uppercase;
 }
@@ -147,12 +145,81 @@ body{
     font-size: 18px;
     letter-spacing: 0.2px;
     text-transform: capitalize;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
+    color: #8c979e;  
 }
 
-.seofriendly .textsec .btn1{
+.textsec .btn1{
     margin: 0;
 }
+
+.portfolio .textsec {
+    padding-left: 100px;
+}
+ 
+
+.parallaxsec .container{
+    height: 350px;
+    background: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+.Limitless .container{
+    background: #fff;
+    height: auto;
+}
+
+.Limitless .container .items 
+{
+    text-align: center;
+    width: 800px;
+}
+
+.Limitless .container .items .para{
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    letter-spacing: 0px;
+    width: 100%;
+}
+
+.latestsec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e1015;
+    h1{
+      color: #fff;
+      font-size: 50px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+.latestsec .items{
+    width: 80%;
+    height: 30%;    
+}
+
+.imagesec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.imagesec img{
+   width: 400px;
+   height: 300px;
+}
+
+
+
+
 
 
 

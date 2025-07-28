@@ -1,7 +1,7 @@
 const Blog = () =>{
     return(
         <>
-         This is Blog.
+          <h1>Blog</h1>
         </>
     )
 }
